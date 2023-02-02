@@ -1,0 +1,3 @@
+[submodule "themes/nav"]
+	path = themes/nav
+	url = https://github.com/iplaycode/webstack-hugo.git

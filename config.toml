@@ -1,7 +1,7 @@
 baseURL = "https://dengyuncheng27.github.io/site-nav"
 languageCode = "zh-CN"
-title = "WebStack网址导航 Hugo主题"
-theme = "webstack-hugo"
+title = "site nav 导航"
+theme = "nav"
 preserveTaxonomyNames = true
 disablePathToLower = true
 hasCJKLanguage = true

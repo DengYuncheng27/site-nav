@@ -3,7 +3,7 @@ name: build
 on:
   push:
     branches:
-      - build  # Set a branch that will trigger a deployment
+      - main  # Set a branch that will trigger a deployment
   schedule:
         # Runs everyday at 8:00 AM
         - cron: "0 0 * * *"
@@ -30,7 +30,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/build' }}
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public

@@ -1,6 +1,6 @@
 baseURL = "https://dengyuncheng27.github.io/site-nav"
 languageCode = "zh-CN"
-title = "site nav 导航"
+title = "小站导航"
 theme = "nav"
 preserveTaxonomyNames = true
 disablePathToLower = true

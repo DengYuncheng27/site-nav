@@ -6,10 +6,14 @@ preserveTaxonomyNames = true
 disablePathToLower = true
 hasCJKLanguage = true
 copyright = ""
+homepage = "https://github.com/DengYuncheng27"
 [params]
-  author = "iplaycode"
-  description = "Webstack Hugo"
+  author = "BUBBLE"
+  description = "个人导航网"
 [params.search]
   enable = true
 [params.darkmode]
   enable = false
+[author]
+  name = "Bubble"
+  homepage = "https://github.com/DengYuncheng27"
